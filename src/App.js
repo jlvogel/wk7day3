@@ -114,8 +114,19 @@ function App() {
       The Virtual DOM is a core concept of React that allows it to make changes to the DOM without having to reload the page or redraw the page. It works by creating a virtual representation of the current DOM and comparing it to the desired state of the DOM, and then updating only the parts that need to be changed. This makes it faster and more efficient to make changes to the DOM, as well as easier for developers to create complex user interfaces.
       ****************************************************************
 
+      React Developer Tools
 
+      React Developer Tools is a browser extension for Chrome and Firefox that allows users to inspect and debug React components in their applications. The tool allows developers to see the components, props, state, and hierarchy of their React app in an interactive way. It also provides helpful features such as the ability to find components by name, view their source code, and edit them in the browser.
 
+      To install React Developer Tools, first open the Chrome Web Store, then search for "React Developer Tools". The extension should appear in the search results. Click "Add to Chrome", then confirm the installation. Once the installation is complete, the React Developer Tools icon should appear in the Chrome toolbar. We will be using the Components Tab in the React Dev Tools.
+
+      The React Developer Tools extension is an invaluable tool for React developers. It allows developers to easily inspect and debug their components, as well as view their props, state, and hierarchy. With these features, React developers are able to more quickly identify and fix problems in their apps.
+
+      ****************************************************************
+      For a new React Learner looking to develop React applications, the React Developer Tools extension is a must-have. With its intuitive interface and helpful features, the extension will provide a wealth of information that can be used to debug and optimize applications. Furthermore, installation is quick and easy, making it a great addition to any React developer's workflow.
+      ****************************************************************
+
+      
 
       */}
     </div>
