@@ -1,4 +1,6 @@
+// import { useState } from "react"
 
+import Counter from "./components/Counter";
 
 function App() {
   return (
@@ -138,9 +140,54 @@ function App() {
       Thinking in React is a great tool for building efficient, reusable user interfaces. It encourages developers to break down complex applications into small, reusable components and to use one-way data flow to keep components independent. This helps developers create robust applications quickly and easily.
       ****************************************************************
 
-      
+      The useState Hook
 
+      The useState hook allows us to generate variables that are special, as updating them would trigger your component and its children to update.
+
+      First step is always importing the useState hook.
+
+      import { useState } from "react"
+
+      /// Ok I added it to top of this code and nothing broke yay!
+      /// I'm going to use tripple forward slashes (///) for my
+      /// own personal notes inserted into the notes from the lesson
+
+      Inside the body of your component function you can then initiate a state variable.  The name convention is "state" for the variable and "setState" for the function that updates the states value.
+
+      If I wanted to create state for a counter it would look like this:
+
+      // initate counter at 0, setCounter let's me update counter
+      const [counter, setCounter] = useState(0)
+
+      So a simple counter component would look like this...
+
+      import { useState } from "react"
+
+      export default function Counter(props) {
+        // Declare the state
+        const [counter, setCounter] = useState(0)
+
+        // Function to add one to the state
+        const addOne = () => {
+          // sets counter to its current value + 1
+          setCounter(counter + 1)
+        }
+
+        // The h1 display the counter and button runs addOne function
+        return (
+          <div>
+            <h1>{counter}<h1>
+            <button onClick={addOne}>Click Me to Add One</button>
+          </div>
+        )
+      }
+
+      /// Ok I am going to create this component and test it!
       */}
+      <Counter /> {/*   It works!!!  */}
+
+      {/* continuation of notes in Counter.jsx */}
+      
     </div>
   );
 }
