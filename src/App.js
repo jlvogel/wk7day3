@@ -126,6 +126,18 @@ function App() {
       For a new React Learner looking to develop React applications, the React Developer Tools extension is a must-have. With its intuitive interface and helpful features, the extension will provide a wealth of information that can be used to debug and optimize applications. Furthermore, installation is quick and easy, making it a great addition to any React developer's workflow.
       ****************************************************************
 
+      Thinking In React
+
+      Thinking in React is a concept developed by Facebook to help web developers build user interfaces (UI) more efficiently. It is a component-based approach that focuses on breaking down UI elements into small, reusable components. This allows developers to break down complex tasks into individual, simple parts that can be reused as needed. The main idea behind Thinking in React is to think of the UI as a set of components, or small pieces, that can be moved around, modified, and reused.
+
+      Thinking in React requires developers to break down an application into smaller components, each of which has its own state. State is data that is stored within a component, such as a user's name or what items are in their shopping cart. By breaking down an app into smaller components, developers can more easily manage application state and make sure that updates only affect the component that needs updating.
+
+      The Thinking in React approach also encourages developers to use one-way data flow. This means that data flows from parent components to child components, rather than from child components to parent components. This helps keep components independent and makes it easier to debug and maintain an application.
+
+      ****************************************************************
+      Thinking in React is a great tool for building efficient, reusable user interfaces. It encourages developers to break down complex applications into small, reusable components and to use one-way data flow to keep components independent. This helps developers create robust applications quickly and easily.
+      ****************************************************************
+
       
 
       */}
