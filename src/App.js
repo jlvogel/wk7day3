@@ -1,7 +1,9 @@
 /// import { useState } from "react"
 
 // import Counter from "./components/Counter";
-import Counter from "./components/Counter2";
+// import Counter from "./components/Counter2";
+import Counter from "./components/Counter3";
+
 
 
 function App() {
