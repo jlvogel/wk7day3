@@ -1,6 +1,8 @@
-// import { useState } from "react"
+/// import { useState } from "react"
 
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
+import Counter from "./components/Counter2";
+
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
 
       Learning Objectives:
         Learn about state
-        Learn how to declare tsate in a React component
+        Learn how to declare state in a React component
         Learn how to iterate over some data and render it
 
       Students will be able to:
@@ -184,10 +186,10 @@ function App() {
 
       /// Ok I am going to create this component and test it!
       */}
-      <Counter /> {/*   It works!!!  */}
+      <Counter /> {/* ///  It works!!!  */}
 
-      {/* continuation of notes in Counter.jsx */}
-      
+      {/* /// continuation of notes in Counter.jsx */}
+
     </div>
   );
 }

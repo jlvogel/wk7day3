@@ -1,14 +1,15 @@
 import { useState } from "react"
-// useState is a hook
+/// useState is a hook
 
 export default function Counter(props) {
   // Declare the state
-  const [counter, setCounter] = useState(0) // STEP #2 (I think)
+  const [counter, setCounter] = useState(0) /// STEP #2 (I think)
+  /// the above syntax is required by useState
 
   // Function to add one to the state
   const addOne = () => {
     // sets counter to its current value + 1
-    setCounter(counter + 1) // STEP #1
+    setCounter(counter + 1) /// STEP #1
   }
 
   // The h1 display the counter and button runs addOne function
@@ -53,3 +54,5 @@ const updatedState = state
 setState(updatedState)
 
  */
+
+/// NOTES CONTINUE IN Counter2.jsx -> The useEffect Hook
