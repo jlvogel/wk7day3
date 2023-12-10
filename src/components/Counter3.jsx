@@ -46,4 +46,27 @@ So notice the useEffect receives a function that executes our log, and we also g
   The function will run once when the component is first loaded
 
   The function will run again only when evenCounter changes
+
+  useEffect is more regularly used for API calls. Usually you'll call the API, get the data then update state inside a useEffect to prevent an infinite loop from occurring.
+
+  const getSomethingFromAPI = async(url) => {
+    try {
+      const response = await fetch(url)
+      const data = await response.json()
+      setState(data)
+    }catch(e){
+      console.error(e)
+    }
+  }
+  useEffect(() => {
+    getSomethingFromAPI('api url')
+  },[])
+
+/// It will be nice when I understand the abvove - one day....
+
+Also if the function given to useEffect returns a function, the returned function will be run when the component is removed from the DOM useful for removing event listeners that may be left behind (not something that should come up often)
+
+/// Well that's good because I have no idea what the hell you're talking about
+/// haha no, I kinda do......
+
 */
