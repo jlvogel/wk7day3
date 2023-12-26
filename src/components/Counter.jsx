@@ -53,6 +53,15 @@ const updatedState = state
 // no update is triggered
 setState(updatedState)
 
+Do this
+
+// create a unique copy of the array
+const updatedState = [...state]
+//modify the new array
+updatedState[0] = 6
+// set the State to the updatedArray, DOM will update
+setState(updatedState)
+
  */
 
 /// NOTES CONTINUE IN Counter2.jsx -> The useEffect Hook

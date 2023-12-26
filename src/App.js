@@ -34,7 +34,7 @@ function App() {
 
       At first, our cart is empty. Our state would likely be an empty array.
 
-      then we add an item into our cart. We'd push an objcet like this one into our cart:
+      then we add an item into our cart. We'd push an object like this one into our cart:
 
       {
         itemName: 'Jar of Speculoos',
